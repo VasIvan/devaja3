@@ -81,11 +81,20 @@ function App() {
     );
   };
 
+  const saveFunction = () => {
+    const dataURI = canvasRef.current.toDataURL()
+
+    console.log(dataURI)
+  }
+
   return (
+    <div>
     <canvas
       style={{ background: 'green' }}
       ref={canvasRef}
-      onClick={clickFunction}></canvas>
+      onClick={clickFunction} />
+    <button onClick={saveFunction}>save</button>
+    </div>
   );
 }
 
