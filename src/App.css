@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -11,4 +11,10 @@ body {
   justify-content: center;
   min-height: 40vh;
   margin: 0;
+} */
+
+html {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
 }
