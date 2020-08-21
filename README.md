@@ -1,5 +1,9 @@
 # De vaja software developer trainee application assignment
 
+# Link to the App hosted at Firebase:
+
+# https://devaja3assignment.firebaseapp.com/
+
 _Exercise 3. (React/JS/HTML/CSS/Firebase)_
 
 ## Installation
